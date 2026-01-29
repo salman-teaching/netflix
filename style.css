@@ -17,6 +17,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px 120px;
+  height: 12vh;
+  background-color: rgba(0, 0, 0, 0.678);
 }
 
 .header img {
@@ -53,6 +55,8 @@ body {
   align-items: center;
   padding-top: 140px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.678);
+  height: 88vh;
 }
 
 .hero-section h1 {
@@ -66,20 +70,38 @@ body {
 
 .hero-section form {
   margin-top: 20px;
-  margin-bottom: 42px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* margin-bottom: 42px; */
 }
 
 .hero-section form input {
   width: 360px;
   height: 48px;
+  padding-left: 16px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgb(72, 72, 72);
+  color: white;
 }
 
 .hero-section form button {
   height: 48px;
   width: 200px;
+  font-size: 20px;
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .container {
-  /* background-color: red; */
+  height: 100vh;
   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/cc73e7c7-7860-4ef4-8fc8-1baf24569d2f/web/IN-en-20260126-TRIFECTA-perspective_90d714e8-acc9-4253-ab46-ca6b349c1989_large.jpg");
 }
